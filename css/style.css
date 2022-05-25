@@ -1,0 +1,48 @@
+body{
+    height: 100vh;
+    background-color: #f1f5f8;
+}
+
+li{
+    list-style: none;
+}
+ul{
+    display: flex;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 2rem;
+    font-size: 2rem;
+}
+.logo h4{
+    font-size: 2rem;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+    background-color: darkgrey;
+    padding: 1rem;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    
+}
+main h1{
+    margin: 2rem 1rem;
+    padding:1rem 3rem;
+    border:.25rem solid #000;
+    border-radius:4rem;
+    
+}
+main span{
+    padding:1rem 3rem;
+    margin: 2rem 1rem;
+color: cadetblue;
+}
